@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(148deg, rgba(193, 209, 255, 1) 0%, rgba(250, 209, 255, 1) 100%);
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+    height: 50px;
+    margin-bottom: 15px;
+    background-image: linear-gradient(148deg, rgba(193, 209, 255, 1) 0%, rgba(250, 209, 255, 1) 100%);
+    position: fixed;
+    top:0;
+    width: 97%;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.input-cont {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search {
+    height: 17px;
+    position: absolute;
+    left: 2px;
+}
+
+.input {
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    height: 20px;
+    width: 260px;
+    padding: 5px 22px;
+}
+
+.cross {
+    position: absolute;
+    right: 50px;
+    top: 8px;
+    height: 15px;
+    width: 15px;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 40px;
+    padding: 5px 10px;
+    background-color: rgba(250, 209, 255, 1);
+    transition: 0.6s;
+    position: absolute;
+    right: 0;
+}
+
+.btn:hover{
+    background-color: rgba(193, 209, 255, 1);
+}
+
+.gallery-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 15px;
+    margin-top: 51px;
+}
+
+.gallery-img {
+    height: 250px ;
+    width: 400px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    height: 50px;
+}
+
+.footer-text {
+    color: #fff;
+}
+
+.git-logo {
+    display: flex;
+    align-items: center;
+    color: #5abef8;
+    transition: 0.5s;
+}
+
+.git-logo:hover,
+.img:hover {
+    transform: scale(0.9);
+}
+
+.footer-text {
+    color: #5abef8;
+}
+
+.git {
+    margin-right: 10px;
+}
+
+.img {
+    height: 30px;
+    transition: 0.5s;
+}
